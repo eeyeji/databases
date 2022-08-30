@@ -130,13 +130,36 @@
               "widthDefault": 60
             },
             "id": "aa891ab1-e034-433e-9adc-e0ad421e5f21"
+          },
+          {
+            "name": "사는 곳",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "cee29cd5-aa22-4685-b94b-c5735aa47d8b"
           }
         ],
         "ui": {
           "active": false,
           "left": 490.4,
           "top": 69.6,
-          "zIndex": 3,
+          "zIndex": 8,
           "widthName": 60,
           "widthComment": 60
         },
@@ -195,7 +218,7 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 489.6,
           "top": 220.8,
           "zIndex": 4,
@@ -294,7 +317,7 @@
             "aa891ab1-e034-433e-9adc-e0ad421e5f21"
           ],
           "x": 490.4,
-          "y": 114.35,
+          "y": 124.6,
           "direction": "left"
         },
         "constraintName": "fk_사용자 주요 정보_to_사는 곳",
