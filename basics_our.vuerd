@@ -1,0 +1,358 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -3.2,
+    "scrollLeft": -2.4000000000000004,
+    "zoomLevel": 1,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "사용자 주요 정보",
+        "comment": "",
+        "columns": [
+          {
+            "name": "Unique ID",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 61.5537109375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "e0192c58-8dd9-468e-848e-ab98fef17185"
+          },
+          {
+            "name": "이름",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "a30e4c6a-48fb-4d28-8e7f-81dd53b0107b"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 12,
+          "top": 20.8,
+          "zIndex": 69,
+          "widthName": 102.140625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "e4181ffa-a932-472f-854c-c04bb52f3442"
+      },
+      {
+        "name": "사는 곳",
+        "comment": "",
+        "columns": [
+          {
+            "name": "Unique ID",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 61.5537109375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "aa891ab1-e034-433e-9adc-e0ad421e5f21"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 490.4,
+          "top": 69.6,
+          "zIndex": 76,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "5efb7d8a-e064-40b0-b77e-9b7822e9b481"
+      },
+      {
+        "name": "사용자 취미 정보",
+        "comment": "",
+        "columns": [
+          {
+            "name": "취미 Unique ID",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 92.1240234375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "0f15b887-7a98-4362-be7e-d42cd0c7da0c"
+          },
+          {
+            "name": "Unique ID",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 61.5537109375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "a48faa4a-a604-4454-9bf4-8fb45e82d3f2"
+          }
+        ],
+        "ui": {
+          "active": true,
+          "left": 489.6,
+          "top": 220.8,
+          "zIndex": 78,
+          "widthName": 102.140625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "c6ee956d-e463-4a99-8f05-ed1bbd69213a"
+      },
+      {
+        "name": "취미공통코드",
+        "comment": "",
+        "columns": [
+          {
+            "name": "취미 Unique ID",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 92.1240234375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "2fa2fb05-8163-4c82-831b-fc2c38aa6d1a"
+          },
+          {
+            "name": "취미",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "2d018b90-6358-4a74-8985-67ec7054bea8"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 12.8,
+          "top": 203.2,
+          "zIndex": 72,
+          "widthName": 80,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "7e4d3716-e0b5-4e95-9840-b40095eb58d5"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "ZeroOne",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "e4181ffa-a932-472f-854c-c04bb52f3442",
+          "columnIds": [
+            "e0192c58-8dd9-468e-848e-ab98fef17185"
+          ],
+          "x": 360.5537109375,
+          "y": 48.3,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "5efb7d8a-e064-40b0-b77e-9b7822e9b481",
+          "columnIds": [
+            "aa891ab1-e034-433e-9adc-e0ad421e5f21"
+          ],
+          "x": 490.4,
+          "y": 114.35,
+          "direction": "left"
+        },
+        "constraintName": "fk_사용자 주요 정보_to_사는 곳",
+        "visible": true,
+        "id": "8bc53685-0a35-482f-80cb-67f69e0c1775"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "7e4d3716-e0b5-4e95-9840-b40095eb58d5",
+          "columnIds": [
+            "2fa2fb05-8163-4c82-831b-fc2c38aa6d1a"
+          ],
+          "x": 391.9240234375,
+          "y": 258.2,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "c6ee956d-e463-4a99-8f05-ed1bbd69213a",
+          "columnIds": [
+            "0f15b887-7a98-4362-be7e-d42cd0c7da0c"
+          ],
+          "x": 489.6,
+          "y": 248.3,
+          "direction": "left"
+        },
+        "constraintName": "fk_취미공통코드_to_사용자 취미 정보",
+        "visible": true,
+        "id": "8f246442-452b-4dc3-a539-357f24e4f118"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "e4181ffa-a932-472f-854c-c04bb52f3442",
+          "columnIds": [
+            "e0192c58-8dd9-468e-848e-ab98fef17185"
+          ],
+          "x": 360.5537109375,
+          "y": 103.3,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "c6ee956d-e463-4a99-8f05-ed1bbd69213a",
+          "columnIds": [
+            "a48faa4a-a604-4454-9bf4-8fb45e82d3f2"
+          ],
+          "x": 489.6,
+          "y": 303.3,
+          "direction": "left"
+        },
+        "constraintName": "fk_사용자 주요 정보_to_사용자 취미 정보",
+        "visible": true,
+        "id": "55b9f64d-5061-4c4c-8f18-f24b240ea383"
+      }
+    ]
+  }
+}
