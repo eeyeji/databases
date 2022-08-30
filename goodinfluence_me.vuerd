@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -362.3999999999995,
-    "scrollLeft": -188,
-    "zoomLevel": 0.8,
+    "scrollTop": -343.9999999999996,
+    "scrollLeft": -87.19999999999996,
+    "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -47,52 +47,6 @@
         "comment": "",
         "columns": [
           {
-            "name": "사업장 연락처",
-            "comment": "",
-            "dataType": "",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 84.5703125,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "b5f2abdd-6c7f-4e25-82bd-32954b5451a2"
-          },
-          {
-            "name": "사업장 주소",
-            "comment": "",
-            "dataType": "",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 71.5703125,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "2a361b8c-ca99-4234-a34f-e6663cf6be5a"
-          },
-          {
             "name": "순번",
             "comment": "",
             "dataType": "",
@@ -120,7 +74,7 @@
           "active": false,
           "left": 31.3337,
           "top": 521.3999,
-          "zIndex": 372,
+          "zIndex": 382,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1312,9 +1266,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 45.6,
-          "top": 833.2,
-          "zIndex": 380,
+          "left": 31.3776,
+          "top": 826.0888,
+          "zIndex": 383,
           "widthName": 102.140625,
           "widthComment": 60
         },
@@ -1442,8 +1396,8 @@
           "columnIds": [
             "297a35ad-a0c6-47e0-8570-ec6f4a957fc1"
           ],
-          "x": 402.9040125,
-          "y": 601.1499,
+          "x": 378.3337,
+          "y": 566.1499000000001,
           "direction": "right"
         },
         "end": {
@@ -1468,8 +1422,8 @@
           "columnIds": [
             "297a35ad-a0c6-47e0-8570-ec6f4a957fc1"
           ],
-          "x": 402.9040125,
-          "y": 543.1499,
+          "x": 378.3337,
+          "y": 526.3721222222223,
           "direction": "right"
         },
         "end": {
@@ -1494,8 +1448,8 @@
           "columnIds": [
             "297a35ad-a0c6-47e0-8570-ec6f4a957fc1"
           ],
-          "x": 402.9040125,
-          "y": 630.1499,
+          "x": 378.3337,
+          "y": 586.038788888889,
           "direction": "right"
         },
         "end": {
@@ -1520,8 +1474,8 @@
           "columnIds": [
             "297a35ad-a0c6-47e0-8570-ec6f4a957fc1"
           ],
-          "x": 402.9040125,
-          "y": 572.1499,
+          "x": 378.3337,
+          "y": 546.2610111111112,
           "direction": "right"
         },
         "end": {
@@ -1572,8 +1526,8 @@
           "columnIds": [
             "297a35ad-a0c6-47e0-8570-ec6f4a957fc1"
           ],
-          "x": 402.9040125,
-          "y": 528.6499,
+          "x": 378.3337,
+          "y": 536.3165666666667,
           "direction": "right"
         },
         "end": {
@@ -1624,8 +1578,8 @@
           "columnIds": [
             "297a35ad-a0c6-47e0-8570-ec6f4a957fc1"
           ],
-          "x": 402.9040125,
-          "y": 557.6499,
+          "x": 378.3337,
+          "y": 556.2054555555557,
           "direction": "right"
         },
         "end": {
@@ -1702,8 +1656,8 @@
           "columnIds": [
             "297a35ad-a0c6-47e0-8570-ec6f4a957fc1"
           ],
-          "x": 402.9040125,
-          "y": 586.6499,
+          "x": 378.3337,
+          "y": 576.0943444444446,
           "direction": "right"
         },
         "end": {
@@ -1728,8 +1682,8 @@
           "columnIds": [
             "297a35ad-a0c6-47e0-8570-ec6f4a957fc1"
           ],
-          "x": 402.9040125,
-          "y": 615.6499,
+          "x": 378.3337,
+          "y": 595.9832333333335,
           "direction": "right"
         },
         "end": {
@@ -1780,8 +1734,8 @@
           "columnIds": [
             "297a35ad-a0c6-47e0-8570-ec6f4a957fc1"
           ],
-          "x": 402.9040125,
-          "y": 644.6499,
+          "x": 378.3337,
+          "y": 605.927677777778,
           "direction": "right"
         },
         "end": {
@@ -1806,7 +1760,7 @@
           "columnIds": [
             "297a35ad-a0c6-47e0-8570-ec6f4a957fc1"
           ],
-          "x": 217.11885625,
+          "x": 204.8337,
           "y": 521.3999,
           "direction": "top"
         },
@@ -1832,8 +1786,8 @@
           "columnIds": [
             "297a35ad-a0c6-47e0-8570-ec6f4a957fc1"
           ],
-          "x": 217.11885625,
-          "y": 651.8999,
+          "x": 204.8337,
+          "y": 610.8999,
           "direction": "bottom"
         },
         "end": {
@@ -1841,8 +1795,8 @@
           "columnIds": [
             "77973966-833d-4262-842d-7cb68a3fc692"
           ],
-          "x": 219.1,
-          "y": 833.2,
+          "x": 204.8776,
+          "y": 826.0888,
           "direction": "top"
         },
         "constraintName": "fk_기본정보_to_사업장 주소 정보",
