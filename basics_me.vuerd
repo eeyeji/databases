@@ -91,36 +91,13 @@
               "widthDefault": 60
             },
             "id": "2e7dba13-16e9-48ac-8e11-c048c848c9b3"
-          },
-          {
-            "name": "이메일",
-            "comment": "",
-            "dataType": "",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "0cdbf98b-8c31-4a8f-b23e-9d9d8f674906"
           }
         ],
         "ui": {
           "active": false,
           "left": 404,
           "top": 52,
-          "zIndex": 14,
+          "zIndex": 10,
           "widthName": 60,
           "widthComment": 60
         },
@@ -244,7 +221,7 @@
           "active": false,
           "left": 151.2,
           "top": 437.6,
-          "zIndex": 4,
+          "zIndex": 3,
           "widthName": 102.140625,
           "widthComment": 60
         },
@@ -368,7 +345,7 @@
           "active": false,
           "left": 601.6,
           "top": 434.4,
-          "zIndex": 18,
+          "zIndex": 6,
           "widthName": 84.5703125,
           "widthComment": 60
         },
@@ -401,13 +378,36 @@
               "widthDefault": 60
             },
             "id": "f870e015-38f2-4f94-ace0-5dc4f2752b7b"
+          },
+          {
+            "name": "이메일",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "6c43d035-8258-46df-81d2-9b795198c76e"
           }
         ],
         "ui": {
           "active": false,
           "left": 404.8,
           "top": 320.8,
-          "zIndex": 17,
+          "zIndex": 9,
           "widthName": 60,
           "widthComment": 60
         },
@@ -432,7 +432,7 @@
             "a2cba8c9-614c-4932-8a76-901c8c8ae0e2"
           ],
           "x": 768.61962890625,
-          "y": 117.25,
+          "y": 107,
           "direction": "right"
         },
         "end": {
@@ -458,7 +458,7 @@
             "a2cba8c9-614c-4932-8a76-901c8c8ae0e2"
           ],
           "x": 404,
-          "y": 117.25,
+          "y": 107,
           "direction": "left"
         },
         "end": {
@@ -536,7 +536,7 @@
             "a2cba8c9-614c-4932-8a76-901c8c8ae0e2"
           ],
           "x": 586.309814453125,
-          "y": 182.5,
+          "y": 162,
           "direction": "bottom"
         },
         "end": {
