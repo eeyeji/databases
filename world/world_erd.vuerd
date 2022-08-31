@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
-    "scrollLeft": -160.79999999999995,
-    "zoomLevel": 1,
+    "scrollTop": -212.80000000000015,
+    "scrollLeft": -193.60000000000008,
+    "zoomLevel": 0.8,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -270,6 +270,29 @@
             "id": "a36235fe-549a-492c-a615-091d82061c75"
           },
           {
+            "name": "SurfaceArea",
+            "comment": "면적",
+            "dataType": "DECIMAL",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 72.09716796875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "1c111721-cbf2-4f7d-9b76-b6dc297fdef7"
+          },
+          {
             "name": "IndepYear",
             "comment": "독립년도",
             "dataType": "SMALLINT",
@@ -314,29 +337,6 @@
               "widthDefault": 60
             },
             "id": "f753063a-3632-4e18-be21-261e6fd4ff4d"
-          },
-          {
-            "name": "SurfaceArea",
-            "comment": "면적",
-            "dataType": "DECIMAL",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 72.09716796875,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "1c111721-cbf2-4f7d-9b76-b6dc297fdef7"
           },
           {
             "name": "LifeExpectancy",
@@ -527,7 +527,7 @@
           "active": false,
           "left": 649.6,
           "top": 82.4,
-          "zIndex": 16,
+          "zIndex": 43,
           "widthName": 73.04931640625,
           "widthComment": 60
         },
