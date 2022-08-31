@@ -106,7 +106,7 @@
             "ui": {
               "active": false,
               "pk": false,
-              "fk": true,
+              "fk": false,
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
@@ -129,7 +129,7 @@
             "ui": {
               "active": false,
               "pk": false,
-              "fk": true,
+              "fk": false,
               "pfk": false,
               "widthName": 64.9560546875,
               "widthComment": 60,
@@ -152,7 +152,7 @@
             "ui": {
               "active": false,
               "pk": false,
-              "fk": true,
+              "fk": false,
               "pfk": false,
               "widthName": 79.94287109375,
               "widthComment": 60,
@@ -160,13 +160,36 @@
               "widthDefault": 60
             },
             "id": "c9842cef-c8f0-4bd1-ac31-17f4ca5bb61a"
+          },
+          {
+            "name": "CountryLanguage",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 106.5205078125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "c0ef7ed3-971d-4745-9307-a648ab8258de"
           }
         ],
         "ui": {
           "active": false,
           "left": 26.4,
           "top": 13.6,
-          "zIndex": 332,
+          "zIndex": 30,
           "widthName": 60,
           "widthComment": 60
         },
@@ -184,13 +207,13 @@
             "default": "",
             "option": {
               "autoIncrement": false,
-              "primaryKey": false,
+              "primaryKey": true,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
-              "pk": false,
+              "pk": true,
               "fk": false,
               "pfk": false,
               "widthName": 60,
@@ -207,13 +230,13 @@
             "default": "",
             "option": {
               "autoIncrement": false,
-              "primaryKey": true,
+              "primaryKey": false,
               "unique": false,
               "notNull": true
             },
             "ui": {
               "active": false,
-              "pk": true,
+              "pk": false,
               "fk": false,
               "pfk": false,
               "widthName": 60,
@@ -270,29 +293,6 @@
             "id": "a36235fe-549a-492c-a615-091d82061c75"
           },
           {
-            "name": "SurfaceArea",
-            "comment": "면적",
-            "dataType": "DECIMAL",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 72.09716796875,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "1c111721-cbf2-4f7d-9b76-b6dc297fdef7"
-          },
-          {
             "name": "IndepYear",
             "comment": "독립년도",
             "dataType": "SMALLINT",
@@ -322,13 +322,13 @@
             "default": "",
             "option": {
               "autoIncrement": false,
-              "primaryKey": true,
+              "primaryKey": false,
               "unique": false,
               "notNull": true
             },
             "ui": {
               "active": false,
-              "pk": true,
+              "pk": false,
               "fk": false,
               "pfk": false,
               "widthName": 64.9560546875,
@@ -337,6 +337,29 @@
               "widthDefault": 60
             },
             "id": "f753063a-3632-4e18-be21-261e6fd4ff4d"
+          },
+          {
+            "name": "SurfaceArea",
+            "comment": "면적",
+            "dataType": "DECIMAL",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 72.09716796875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "1c111721-cbf2-4f7d-9b76-b6dc297fdef7"
           },
           {
             "name": "LifeExpectancy",
@@ -525,9 +548,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 625.6,
-          "top": 8.8,
-          "zIndex": 364,
+          "left": 649.6,
+          "top": 82.4,
+          "zIndex": 16,
           "widthName": 73.04931640625,
           "widthComment": 60
         },
@@ -538,29 +561,6 @@
         "name": "CountryLanguage_me",
         "comment": "",
         "columns": [
-          {
-            "name": "CountryCode",
-            "comment": "나라코드",
-            "dataType": "VARCHAR(200)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": true,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": true,
-              "fk": false,
-              "pfk": false,
-              "widthName": 79.94287109375,
-              "widthComment": 60,
-              "widthDataType": 89.29296875,
-              "widthDefault": 60
-            },
-            "id": "27494afa-9a79-443c-8995-0f2022a9ac1c"
-          },
           {
             "name": "Language",
             "comment": "언어",
@@ -629,13 +629,59 @@
               "widthDefault": 60
             },
             "id": "58c82b7e-96be-4b3a-888c-3021248e2d20"
+          },
+          {
+            "name": "CountryCode",
+            "comment": "국가코드",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 79.94287109375,
+              "widthComment": 60,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "4abf664c-adf0-4a3b-9b90-0c30f223df55"
+          },
+          {
+            "name": "CountryLanguage",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 106.5205078125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "441f7bbc-92da-46a0-b2ff-480a6c8fb965"
           }
         ],
         "ui": {
           "active": false,
-          "left": 26.4,
-          "top": 323.2,
-          "zIndex": 366,
+          "left": 27.2,
+          "top": 328,
+          "zIndex": 31,
           "widthName": 130.451171875,
           "widthComment": 60
         },
@@ -655,54 +701,26 @@
         "relationshipType": "ZeroN",
         "startRelationshipType": "Dash",
         "start": {
-          "tableId": "8ffd04bb-c64a-4449-8c54-b3ca404fd4f2",
-          "columnIds": [
-            "d4691f82-9f15-4605-a635-8d341a0a380a",
-            "f753063a-3632-4e18-be21-261e6fd4ff4d"
-          ],
-          "x": 625.6,
-          "y": 197.05,
-          "direction": "left"
-        },
-        "end": {
-          "tableId": "586280a7-538c-4e92-ac69-40b88924a5e8",
-          "columnIds": [
-            "7234f723-a312-455a-a078-68a637bee274",
-            "f1f65a3b-3178-437e-9c83-b43121307640"
-          ],
-          "x": 422.63583984375,
-          "y": 99.35,
-          "direction": "right"
-        },
-        "constraintName": "fk_country_me_to_city_me",
-        "visible": true,
-        "id": "3c461d10-f431-4879-a566-e1bdb5d23448"
-      },
-      {
-        "identification": false,
-        "relationshipType": "ZeroN",
-        "startRelationshipType": "Dash",
-        "start": {
           "tableId": "7a0fcb92-049f-417c-9acc-4277188fbc54",
           "columnIds": [
-            "27494afa-9a79-443c-8995-0f2022a9ac1c"
+            "441f7bbc-92da-46a0-b2ff-480a6c8fb965"
           ],
-          "x": 224.517919921875,
-          "y": 323.2,
+          "x": 238.60673828125,
+          "y": 328,
           "direction": "top"
         },
         "end": {
           "tableId": "586280a7-538c-4e92-ac69-40b88924a5e8",
           "columnIds": [
-            "c9842cef-c8f0-4bd1-ac31-17f4ca5bb61a"
+            "c0ef7ed3-971d-4745-9307-a648ab8258de"
           ],
-          "x": 224.517919921875,
-          "y": 185.1,
+          "x": 237.80673828125,
+          "y": 205.6,
           "direction": "bottom"
         },
         "constraintName": "fk_countrylanguage_me_to_city_me",
         "visible": true,
-        "id": "8e35f62a-dbc1-4b15-b6d7-ab6da8ae61d5"
+        "id": "c27b93f9-36c0-4a69-a4fb-ce158d4c6eaf"
       }
     ]
   }
