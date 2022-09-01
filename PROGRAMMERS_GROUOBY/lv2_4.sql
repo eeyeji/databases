@@ -1,6 +1,14 @@
 -- https://school.programmers.co.kr/learn/courses/30/lessons/59041
 -- GROUP BY
 -- 동명 동물 수 찾기
+-- SELECT A.NAME, A.Cnt FROM
+-- (
+--     SELECT NAME, COUNT(NAME) Cnt FROM ANIMAL_INS
+--     WHERE NAME IS NOT NULL
+--     GROUP BY NAME
+-- ) A
+WHERE A.Cnt >= 2
+ORDER BY NAME;
 SELECT NAME, COUNT(NAME)
 FROM ANIMAL_INS
 GROUP BY NAME
