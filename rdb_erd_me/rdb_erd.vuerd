@@ -166,7 +166,7 @@
           "active": false,
           "left": 48.8,
           "top": 21.6,
-          "zIndex": 125,
+          "zIndex": 22,
           "widthName": 64.20703125,
           "widthComment": 71.5703125
         },
@@ -222,9 +222,25 @@
               "widthDefault": 60
             },
             "id": "0686204e-a112-43e1-af6b-bd67fbc9cf53"
-          },
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 669.2,
+          "top": 272.4,
+          "zIndex": 36,
+          "widthName": 82.970703125,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "8aeb33f7-90ba-4904-aeaa-840bcc9f4a67"
+      },
+      {
+        "name": "COMPANY_DEPT",
+        "comment": "관계테이블",
+        "columns": [
           {
-            "name": "EMP_ID",
+            "name": "COMPANY_ID",
             "comment": "Unique아이디",
             "dataType": "VARCHAR(200)",
             "default": "",
@@ -239,24 +255,47 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 60,
+              "widthName": 82.5771484375,
               "widthComment": 83.1484375,
               "widthDataType": 89.29296875,
               "widthDefault": 60
             },
-            "id": "bce78b0f-eb7e-41a8-9b36-82bf07802d13"
+            "id": "26861323-4837-4b73-9de3-e624ecfd39ed"
+          },
+          {
+            "name": "DEPT_ID",
+            "comment": "Unique 아이디",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 87.71875,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "51ad6ba8-5c3f-4d01-90df-5e806f2fad3a"
           }
         ],
         "ui": {
           "active": false,
-          "left": 131.6,
-          "top": 298.8,
-          "zIndex": 131,
-          "widthName": 82.970703125,
-          "widthComment": 60
+          "left": 109.6,
+          "top": 272,
+          "zIndex": 41,
+          "widthName": 100.1474609375,
+          "widthComment": 67
         },
         "visible": true,
-        "id": "8aeb33f7-90ba-4904-aeaa-840bcc9f4a67"
+        "id": "ce7e76a5-1460-492d-818a-4c07c03a18a0"
       }
     ],
     "indexes": []
@@ -271,6 +310,32 @@
         "relationshipType": "ZeroN",
         "startRelationshipType": "Dash",
         "start": {
+          "tableId": "8aeb33f7-90ba-4904-aeaa-840bcc9f4a67",
+          "columnIds": [
+            "09a2d327-26c9-4bab-bf21-695dd5797547"
+          ],
+          "x": 669.2,
+          "y": 327.4,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "ce7e76a5-1460-492d-818a-4c07c03a18a0",
+          "columnIds": [
+            "51ad6ba8-5c3f-4d01-90df-5e806f2fad3a"
+          ],
+          "x": 536.1888671875,
+          "y": 327,
+          "direction": "right"
+        },
+        "constraintName": "fk_department_to_company_dept",
+        "visible": true,
+        "id": "78048b03-6eba-452c-9294-e0f1bf1100c8"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
           "tableId": "5b6ff5c6-ba85-483b-8470-e7c4859012cb",
           "columnIds": [
             "90d4bc35-05e2-44ea-b6ce-2beb33df345e"
@@ -280,17 +345,17 @@
           "direction": "bottom"
         },
         "end": {
-          "tableId": "8aeb33f7-90ba-4904-aeaa-840bcc9f4a67",
+          "tableId": "ce7e76a5-1460-492d-818a-4c07c03a18a0",
           "columnIds": [
-            "bce78b0f-eb7e-41a8-9b36-82bf07802d13"
+            "26861323-4837-4b73-9de3-e624ecfd39ed"
           ],
-          "x": 333.605859375,
-          "y": 298.8,
+          "x": 322.89443359375,
+          "y": 272,
           "direction": "top"
         },
-        "constraintName": "fk_company_to_department",
+        "constraintName": "fk_company_to_company_dept",
         "visible": true,
-        "id": "ff06e9c3-78b6-4cdd-8ec4-0d7bfa6d16fa"
+        "id": "80db5600-4625-4489-939d-dada6e9daeb6"
       }
     ]
   }
