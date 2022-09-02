@@ -1,0 +1,5 @@
+-- DELETE
+-- DELETE FROM table_name WHERE condition;
+DELETE FROM COMPANY 
+WHERE SALARY <= 100
+;
