@@ -1,0 +1,7 @@
+INSERT INTO company_dept(COMPANY_ID, DEPT_ID)
+VALUE ('1', 'A01')
+;
+
+INSERT INTO company_dept(COMPANY_ID, DEPT_ID)
+VALUE ('2', 'A02')
+;
